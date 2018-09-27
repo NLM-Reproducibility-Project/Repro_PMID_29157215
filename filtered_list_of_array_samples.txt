@@ -1,0 +1,228 @@
+GSE12790	Affy_array	cancer	GSM320602	breast cancer cell line_MCF7
+GSE12790	Affy_array	control	GSM320243	MCF10a_Null_Vector_rep1
+GSE12790	Affy_array	control	GSM320244	MCF10a_Null_Vector_rep2
+GSE12790	Affy_array	control	GSM320245	MCF10a_Null_Vector_rep3
+GSE12790	Affy_array	control	GSM320246	MCF10a_Null_Vector_rep4
+GSE12790	Affy_array	control	GSM320247	MCF10a_Null_Vector_rep5
+GSE12790	Affy_array	control	GSM320248	MCF10a_Null_Vector_rep6
+GSE12790	Affy_array	control	GSM320249	MCF10a_HRas_Vector_rep1
+GSE12790	Affy_array	control	GSM320250	MCF10a_HRas_Vector_rep2
+GSE12790	Affy_array	control	GSM320251	MCF10a_HRas_Vector_rep3
+GSE12790	Affy_array	control	GSM320252	MCF10a_HRas_Vector_rep4
+GSE12790	Affy_array	control	GSM320253	MCF10a_HRas_Vector_rep5
+GSE12790	Affy_array	control	GSM320254	MCF10a_MEK1_Vector_rep1
+GSE12790	Affy_array	control	GSM320255	MCF10a_MEK1_Vector_rep2
+GSE12790	Affy_array	control	GSM320256	MCF10a_MEK1_Vector_rep3
+GSE12790	Affy_array	control	GSM320257	MCF10a_MEK1_Vector_rep4
+GSE12790	Affy_array	control	GSM320258	MCF10a_MEK1_Vector_rep5
+GSE12790	Affy_array	control	GSM320259	MCF10a_MEK1_Vector_rep6
+GSE29327	Affy_array	control	GSM724630	MCF10A_miR_221_222_mimic_1
+GSE29327	Affy_array	control	GSM724631	MCF10A_miR_221_222_mimic_2
+GSE29327	Affy_array	control	GSM724632	MCF10A_miR_221_222_mimic_3
+GSE29327	Affy_array	control	GSM724633	MCF10A_miR_control_1
+GSE29327	Affy_array	control	GSM724634	MCF10A_miR_control_2
+GSE29327	Affy_array	control	GSM724635	MCF10A_miR_control_3
+GSE30931	Illumina_array	cancer		GSM766677	Cont G2
+GSE30931	Illumina_array	cancer		GSM766678	Cont G3
+GSE30931	Illumina_array	cancer		GSM766679	Estrogen H1
+GSE30931	Illumina_array	cancer		GSM766680	Estrogen H2
+GSE30931	Illumina_array	cancer		GSM766681	Estrogen H3
+GSE30931	Illumina_array	cancer		GSM766682	Velcade I1
+GSE30931	Illumina_array	cancer		GSM766683	Velcade I2
+GSE30931	Illumina_array	cancer		GSM766684	Velcade I3
+GSE30931	Illumina_array	cancer		GSM766685	Estrogen (6 h) + Velcade J1
+GSE30931	Illumina_array	cancer		GSM766686	Estrogen (6 h) + Velcade J2
+GSE30931	Illumina_array	cancer		GSM766687	Estrogen (6 h) + Velcade J3
+GSE30931	Illumina_array	cancer	GSM766676	Cont G1
+GSE35928	Affy_array	control	GSM877551	MCF10A-CV transfected with non-targetting shRNA-1
+GSE35928	Affy_array	control	GSM877552	MCF10A-CV transfected with non-targetting shRNA-2
+GSE35928	Affy_array	control	GSM877553	MCF10A-CV transfected with non-targetting shRNA-3
+GSE35928	Affy_array	control	GSM877554	MCF10A-shFRY transfected with FRY-targetting shRNA-1
+GSE35928	Affy_array	control	GSM877555	MCF10A-shFRY transfected with FRY-targetting shRNA-2
+GSE35928	Affy_array	control	GSM877556	MCF10A-shFRY transfected with FRY-targetting shRNA-3
+GSE40987	Affy_array	cancer	GSM1006372	MCF7, non specific control, biological rep1
+GSE40987	Affy_array	cancer	GSM1006373	MCF7, non specific control, biological rep2
+GSE40987	Affy_array	cancer	GSM1006374	MCF7, shRNA knockdown PDEF, biological rep1
+GSE40987	Affy_array	cancer	GSM1006375	MCF7, shRNA knockdown PDEF, biological rep2
+GSE40987	Affy_array	control	GSM1006376	MCF-10A cells, vector control PDEF, biological rep1
+GSE40987	Affy_array	control	GSM1006377	MCF-10A cells, vector control PDEF, biological rep2
+GSE40987	Affy_array	control	GSM1006378	MCF-10A cells, vector control PDEF, biological rep3
+GSE40987	Affy_array	control	GSM1006379	MCF-10A cells, PDEF overexpression, biological rep1
+GSE40987	Affy_array	control	GSM1006380	MCF-10A cells, PDEF overexpression, biological rep2
+GSE40987	Affy_array	control	GSM1006381	MCF-10A cells, PDEF overexpression, biological rep3
+GSE45715	Illumina_array	cancer	GSM1112383	MCF7_SCR_unstimulated rep1
+GSE45715	Illumina_array	cancer	GSM1112384	MCF7_SCR_TNF 1h rep1
+GSE45715	Illumina_array	cancer	GSM1112385	MCF7_BRCA1_unstimulated rep1
+GSE45715	Illumina_array	cancer	GSM1112386	MCF7_BRCA1_TNF 1h rep1
+GSE45715	Illumina_array	cancer	GSM1112387	MCF7_PALB2_unstimulated rep1
+GSE45715	Illumina_array	cancer	GSM1112388	MCF7_PALB2_TNF 1h rep1
+GSE45715	Illumina_array	cancer	GSM1112389	MCF7_p65_unstimulated rep1
+GSE45715	Illumina_array	cancer	GSM1112390	MCF7_p65_TNF 1h rep1
+GSE45715	Illumina_array	cancer	GSM1112391	MCF7_SCR_unstimulated rep2
+GSE45715	Illumina_array	cancer	GSM1112392	MCF7_SCR_TNF 1h rep2
+GSE45715	Illumina_array	cancer	GSM1112393	MCF7_BRCA1_unstimulated rep2
+GSE45715	Illumina_array	cancer	GSM1112394	MCF7_BRCA1_TNF 1h rep2
+GSE45715	Illumina_array	cancer	GSM1112395	MCF7_PALB2_unstimulated rep2
+GSE45715	Illumina_array	cancer	GSM1112396	MCF7_PALB2_TNF 1h rep2
+GSE45715	Illumina_array	cancer	GSM1112397	MCF7_p65_unstimulated rep2
+GSE45715	Illumina_array	cancer	GSM1112398	MCF7_p65_TNF 1h rep2
+GSE45715	Illumina_array	cancer	GSM1112399	MCF7_SCR_unstimulated rep3
+GSE45715	Illumina_array	cancer	GSM1112400	MCF7_SCR_TNF 1h rep3
+GSE45715	Illumina_array	cancer	GSM1112401	MCF7_BRCA1_unstimulated rep3
+GSE45715	Illumina_array	cancer	GSM1112402	MCF7_BRCA1_TNF 1h rep3
+GSE45715	Illumina_array	cancer	GSM1112403	MCF7_PALB2_unstimulated rep3
+GSE45715	Illumina_array	cancer	GSM1112404	MCF7_PALB2_TNF 1h rep3
+GSE45715	Illumina_array	cancer	GSM1112405	MCF7_p65_unstimulated rep3
+GSE45715	Illumina_array	cancer	GSM1112406	MCF7_p65_TNF 1h rep3
+GSE45715	Illumina_array	cancer	GSM1112407	MCF7_SCR_unstimuated_rep1
+GSE45715	Illumina_array	cancer	GSM1112408	MCF7_SCR_RA 24h_rep1
+GSE45715	Illumina_array	cancer	GSM1112409	MCF7_BRCA1_unstimuated_rep1
+GSE45715	Illumina_array	cancer	GSM1112410	MCF7_BRCA1_RA 24h_rep1
+GSE45715	Illumina_array	cancer	GSM1112411	MCF7_PALB2_unstimuated_rep1
+GSE45715	Illumina_array	cancer	GSM1112412	MCF7_PALB2_RA 24h_rep1
+GSE45715	Illumina_array	cancer	GSM1112413	MCF7_SCR_unstimuated_rep2
+GSE45715	Illumina_array	cancer	GSM1112414	MCF7_SCR_RA 24h_rep2
+GSE45715	Illumina_array	cancer	GSM1112415	MCF7_BRCA1_unstimuated_rep2
+GSE45715	Illumina_array	cancer	GSM1112416	MCF7_BRCA1_RA 24h_rep2
+GSE45715	Illumina_array	cancer	GSM1112417	MCF7_PALB2_unstimuated_rep2
+GSE45715	Illumina_array	cancer	GSM1112418	MCF7_PALB2_RA 24h_rep2
+GSE45715	Illumina_array	cancer	GSM1112419	MCF7_SCR_unstimuated_rep3
+GSE45715	Illumina_array	cancer	GSM1112420	MCF7_SCR_RA 24h_rep3
+GSE45715	Illumina_array	cancer	GSM1112421	MCF7_BRCA1_unstimuated_rep3
+GSE45715	Illumina_array	cancer	GSM1112422	MCF7_BRCA1_RA 24h_rep3
+GSE45715	Illumina_array	cancer	GSM1112423	MCF7_PALB2_unstimuated_rep3
+GSE45715	Illumina_array	cancer	GSM1112424	MCF7_PALB2_RA 24h_rep3
+GSE46834	Illumina_array	cancer	GSM1138986	SUM1315
+GSE46834	Illumina_array	cancer	GSM1138987	MDA-MB231
+GSE46834	Illumina_array	cancer	GSM1138988	SUM159
+GSE46834	Illumina_array	cancer	GSM1138989	SUM159/IRX5
+GSE46834	Illumina_array	cancer	GSM1138990	SUM159/LacZ
+GSE46834	Illumina_array	control	GSM1138991	HMLE/LacZ
+GSE46834	Illumina_array	control	GSM1138992	HMLE/Gcnt2
+GSE46834	Illumina_array	control	GSM1138993	HMLE/Foxq1
+GSE48398	Illumina_array	cancer	GSM1177035	MDA231 37oC rep1
+GSE48398	Illumina_array	cancer	GSM1177036	MDA231 37oC rep2
+GSE48398	Illumina_array	cancer	GSM1177037	MDA231 37oC rep3
+GSE48398	Illumina_array	cancer	GSM1177038	MDA231 37oC rep4
+GSE48398	Illumina_array	cancer	GSM1177039	MDA231 37oC rep5
+GSE48398	Illumina_array	cancer	GSM1177040	MDA231 37oC rep6
+GSE48398	Illumina_array	cancer	GSM1177041	MDA231 45oC rep1
+GSE48398	Illumina_array	cancer	GSM1177042	MDA231 45oC rep2
+GSE48398	Illumina_array	cancer	GSM1177043	MDA231 45oC rep3
+GSE48398	Illumina_array	cancer	GSM1177044	MDA468 37oC rep1
+GSE48398	Illumina_array	cancer	GSM1177045	MDA468 37oC rep2
+GSE48398	Illumina_array	cancer	GSM1177046	MDA468 37oC rep3
+GSE48398	Illumina_array	cancer	GSM1177047	MDA468 37oC rep4
+GSE48398	Illumina_array	cancer	GSM1177048	MDA468 37oC rep5
+GSE48398	Illumina_array	cancer	GSM1177049	MDA468 37oC rep6
+GSE48398	Illumina_array	cancer	GSM1177050	MDA468 45oC rep1
+GSE48398	Illumina_array	cancer	GSM1177051	MDA468 45oC rep2
+GSE48398	Illumina_array	cancer	GSM1177052	MDA468 45oC rep3
+GSE48398	Illumina_array	cancer	GSM1177053	MCF7 37oC rep1
+GSE48398	Illumina_array	cancer	GSM1177054	MCF7 37oC rep2
+GSE48398	Illumina_array	cancer	GSM1177055	MCF7 37oC rep3
+GSE48398	Illumina_array	cancer	GSM1177056	MCF7 37oC rep4
+GSE48398	Illumina_array	cancer	GSM1177057	MCF7 37oC rep5
+GSE48398	Illumina_array	cancer	GSM1177058	MCF7 37oC rep6
+GSE48398	Illumina_array	cancer	GSM1177059	MCF7 45oC rep1
+GSE48398	Illumina_array	cancer	GSM1177060	MCF7 45oC rep2
+GSE48398	Illumina_array	cancer	GSM1177061	MCF7 45oC rep3
+GSE48398	Illumina_array	cancer	GSM1177062	MCF7 45oC rep4
+GSE48398	Illumina_array	cancer	GSM1177063	MCF7 45oC rep5
+GSE48398	Illumina_array	cancer	GSM1177064	MCF7 45oC rep6
+GSE48398	Illumina_array	control	GSM1177029	MCF10A 37oC rep1
+GSE48398	Illumina_array	control	GSM1177030	MCF10A 37oC rep2
+GSE48398	Illumina_array	control	GSM1177031	MCF10A 37oC rep3
+GSE48398	Illumina_array	control	GSM1177032	MCF10A 45oC rep1
+GSE48398	Illumina_array	control	GSM1177033	MCF10A 45oC rep2
+GSE48398	Illumina_array	control	GSM1177034	MCF10A 45oC rep3
+GSE52262	Affy_array	cancer	GSM1262124	CD24-CD44+, ALDH- flow sorted cells from HCC1954 cell line
+GSE52262	Affy_array	cancer	GSM1262125	CD24-CD44+, ALDH+ flow sorted cells from HCC1954 cell line
+GSE52262	Affy_array	cancer	GSM1262126	non-CD24-CD44+, ALDH- flow sorted cells from HCC1954 cell line
+GSE52262	Affy_array	cancer	GSM1262127	non CD24-CD44+, ALDH+ flow sorted cells from HCC1954 cell line
+GSE52262	Affy_array	cancer	GSM1262136	CD24-CD44+, ALDH- flow sorted cells from MCF7 cell line
+GSE52262	Affy_array	cancer	GSM1262137	CD24-CD44+, ALDH+ flow sorted cells from MCF7 cell line
+GSE52262	Affy_array	cancer	GSM1262138	non-CD24-CD44+, ALDH- flow sorted cells from MCF7 cell line
+GSE52262	Affy_array	cancer	GSM1262139	non CD24-CD44+, ALDH+ flow sorted cells from MCF7 cell line
+GSE52262	Affy_array	cancer	GSM1262143	CD24-CD44+, ALDH- flow sorted cells from SUM149 cell line, biological rep 1
+GSE52262	Affy_array	cancer	GSM1262144	CD24-CD44+, ALDH+ flow sorted cells from SUM149 cell line, biological rep 2
+GSE52262	Affy_array	cancer	GSM1262145	non-CD24-CD44+, ALDH- flow sorted cells from SUM149 cell line, biological rep 1
+GSE52262	Affy_array	cancer	GSM1262146	non CD24-CD44+, ALDH+ flow sorted cells from SUM149 cell line, biological rep 2
+GSE52262	Affy_array	cancer	GSM1262147	CD24-CD44+, ALDH- flow sorted cells from SUM159 cell line, biological rep 1
+GSE52262	Affy_array	cancer	GSM1262148	CD24-CD44+, ALDH+ flow sorted cells from SUM159 cell line, biological rep 2
+GSE52262	Affy_array	cancer	GSM1262149	non-CD24-CD44+, ALDH- flow sorted cells from SUM159 cell line, biological rep 1
+GSE52262	Affy_array	cancer	GSM1262150	non CD24-CD44+, ALDH+ flow sorted cells from SUM159 cell line, biological rep 2
+GSE52712	Affy_array	cancer	GSM1274482	MCF7_1ng_R1
+GSE52712	Affy_array	cancer	GSM1274483	MCF7_1ng_R2
+GSE52712	Affy_array	cancer	GSM1274484	MCF7_1ng_R3
+GSE52712	Affy_array	cancer	GSM1274485	MCF7_1ng_R4
+GSE52712	Affy_array	cancer	GSM1274486	MCF7_1ng_R5
+GSE52712	Affy_array	cancer	GSM1274492	MCF7_SC_R1
+GSE52712	Affy_array	cancer	GSM1274493	MCF7_SC_R2
+GSE52712	Affy_array	cancer	GSM1274494	MCF7_SC_R3
+GSE52712	Affy_array	cancer	GSM1274495	MCF7_SC_R4
+GSE52712	Affy_array	cancer	GSM1274496	MCF7_SC_R5
+GSE52712	Affy_array	control	GSM1274487	MCF10A_1ng_R1
+GSE52712	Affy_array	control	GSM1274488	MCF10A_1ng_R2
+GSE52712	Affy_array	control	GSM1274489	MCF10A_1ng_R3
+GSE52712	Affy_array	control	GSM1274490	MCF10A_1ng_R4
+GSE52712	Affy_array	control	GSM1274491	MCF10A_1ng_R5
+GSE52712	Affy_array	control	GSM1274497	MCF10A_SC_R1
+GSE52712	Affy_array	control	GSM1274498	MCF10A_SC_R2
+GSE52712	Affy_array	control	GSM1274499	MCF10A_SC_R3
+GSE52712	Affy_array	control	GSM1274500	MCF10A_SC_R4
+GSE52712	Affy_array	control	GSM1274501	MCF10A_SC_R5
+GSE57339	Illumina_array	control	control	GSM1380125	VEC BioRep1 Techrep1
+GSE57339	Illumina_array	control	GSM1380126	VEC BioRep2 Techrep1
+GSE57339	Illumina_array	control	GSM1380127	CYT1 BioRep1 Techrep1
+GSE57339	Illumina_array	control	GSM1380128	CYT1 BioRep2 Techrep1
+GSE57339	Illumina_array	control	GSM1380129	CYT2 BioRep1 Techrep1
+GSE57339	Illumina_array	control	GSM1380130	CYT2 BioRep2 Techrep1
+GSE57339	Illumina_array	control	GSM1380131	VEC BioRep1 Techrep2
+GSE57339	Illumina_array	control	GSM1380132	VEC BioRep2 Techrep2
+GSE57339	Illumina_array	control	GSM1380133	CYT1 BioRep1 Techrep2
+GSE57339	Illumina_array	control	GSM1380134	CYT1 BioRep2 Techrep2
+GSE57339	Illumina_array	control	GSM1380135	CYT2 BioRep1 Techrep2
+GSE57339	Illumina_array	control	GSM1380136	CYT2 BioRep2 Techrep2
+GSE68651	Illumina_array	cancer	GSM1678064	MCF7 100nmoles/l FA rep5
+GSE68651	Illumina_array	cancer	GSM1678065	Hs578T 100nmoles/l FA rep5
+GSE68651	Illumina_array	cancer	GSM1678067	MCF7 100nmoles/l FA rep2
+GSE68651	Illumina_array	cancer	GSM1678068	Hs578T 100nmoles/l FA rep6
+GSE68651	Illumina_array	cancer	GSM1678070	Hs578T 0nmoles/l FA rep1
+GSE68651	Illumina_array	cancer	GSM1678073	Hs578T 100nmoles/l FA rep2
+GSE68651	Illumina_array	cancer	GSM1678075	MCF7 0nmoles/l FA rep1
+GSE68651	Illumina_array	cancer	GSM1678076	MCF7 100nmoles/l FA rep3
+GSE68651	Illumina_array	cancer	GSM1678077	Hs578T 100nmoles/l FA rep1
+GSE68651	Illumina_array	cancer	GSM1678078	MCF7 0nmoles/l FA rep4
+GSE68651	Illumina_array	cancer	GSM1678079	Hs578T 100nmoles/l FA rep3
+GSE68651	Illumina_array	cancer	GSM1678080	MCF7 100nmoles/l FA rep6
+GSE68651	Illumina_array	cancer	GSM1678081	MCF7 0nmoles/l FA rep5
+GSE68651	Illumina_array	cancer	GSM1678083	Hs578T 0nmoles/l FA rep2
+GSE68651	Illumina_array	cancer	GSM1678085	MCF7 100nmoles/l FA rep4
+GSE68651	Illumina_array	cancer	GSM1678088	Hs578T 0nmoles/l FA rep3
+GSE68651	Illumina_array	cancer	GSM1678089	MCF7 0nmoles/l FA rep2
+GSE68651	Illumina_array	cancer	GSM1678092	MCF7 0nmoles/l FA rep3
+GSE68651	Illumina_array	cancer	GSM1678093	Hs578T 0nmoles/l FA rep6
+GSE68651	Illumina_array	cancer	GSM1678094	MCF7 100nmoles/l FA rep1
+GSE68651	Illumina_array	cancer	GSM1678095	Hs578T 100nmoles/l FA rep4
+GSE68651	Illumina_array	cancer	GSM1678096	MCF7 0nmoles/l FA rep6
+GSE68651	Illumina_array	cancer	GSM1678097	Hs578T 0nmoles/l FA rep5
+GSE68651	Illumina_array	cancer	GSM1678098	Hs578T 0nmoles/l FA rep4
+GSE68651	Illumina_array	control	GSM1678063	MCF10a 100nmoles/l FA rep5
+GSE68651	Illumina_array	control	GSM1678066	MCF10a 0nmoles/l FA rep1
+GSE68651	Illumina_array	control	GSM1678069	MCF10a 0nmoles/l FA rep4
+GSE68651	Illumina_array	control	GSM1678071	MCF10a 0nmoles/l FA rep6
+GSE68651	Illumina_array	control	GSM1678072	MCF10a 100nmoles/l FA rep4
+GSE68651	Illumina_array	control	GSM1678074	MCF10a 0nmoles/l FA rep2
+GSE68651	Illumina_array	control	GSM1678082	MCF10a 0nmoles/l FA rep5
+GSE68651	Illumina_array	control	GSM1678084	MCF10a 100nmoles/l FA rep1
+GSE68651	Illumina_array	control	GSM1678086	MCF10a 100nmoles/l FA rep2
+GSE68651	Illumina_array	control	GSM1678087	MCF10a 0nmoles/l FA rep3
+GSE68651	Illumina_array	control	GSM1678090	MCF10a 100nmoles/l FA rep6
+GSE68651	Illumina_array	control	GSM1678091	MCF10a 100nmoles/l FA rep3
+GSE75292	Illumina_array	cancer	GSM1948936	miR-NC overexpressed MCF7
+GSE75292	Illumina_array	cancer	GSM1948937	miR-204 overexpressed MCF7
+GSE75292	Illumina_array	cancer	GSM1948938	miR-211 overexpressed MCF7
+GSE75292	Illumina_array	control	GSM1948933	miR-NC overexpressed MCF10A
+GSE75292	Illumina_array	control	GSM1948934	miR-204 overexpressed MCF10A
+GSE75292	Illumina_array	control	GSM1948935	miR-211 overexpressed MCF10A

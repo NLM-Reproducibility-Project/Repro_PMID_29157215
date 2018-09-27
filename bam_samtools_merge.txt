@@ -1,0 +1,14 @@
+
+samtools merge GSM1915698.bam SRR2753159.bam SRR2753160.bam
+samtools merge GSM1915699.bam SRR2753161.bam SRR2753162.bam
+samtools merge GSM1915700.bam SRR2753163.bam SRR2753164.bam
+samtools merge GSM1915701.bam SRR2753165.bam SRR2753166.bam
+samtools merge GSM1915702.bam SRR2753167.bam SRR2753168.bam
+samtools merge GSM1915703.bam SRR2753169.bam SRR2753170.bam
+samtools merge GSM1919094.bam SRR2827428.bam SRR2827429.bam
+samtools merge GSM1919095.bam SRR2827430.bam SRR2827431.bam
+samtools merge GSM1919096.bam SRR2827432.bam SRR2827433.bam
+samtools merge GSM1919099.bam SRR2827436.bam SRR2827437.bam
+samtools merge GSM1919101.bam SRR2827439.bam SRR2827440.bam
+samtools merge GSM1919102.bam SRR2827441.bam SRR2827442.bam
+
