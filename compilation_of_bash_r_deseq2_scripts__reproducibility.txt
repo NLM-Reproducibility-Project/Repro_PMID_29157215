@@ -1,0 +1,70 @@
+`> wd=[working directory]
+> gen=[hisat2 genome reference]
+> for srr in \`cat SRR_Acc_List_final.txt\` ; do qsub /nethome/chimb/scripts/hisat2_qsub.sh $wd $srr $gen ; done `
+
+
+qsub /nethome/chimb/scripts/featurecounts_multi_qsub.sh "GSM1915698.bam GSM1915699.bam GSM1915700.bam GSM1915701.bam GSM1915702.bam GSM1915703.bam GSM1919088.bam GSM1919089.bam GSM1919090.bam GSM1919091.bam GSM1919092.bam GSM1919093.bam GSM1919094.bam GSM1919095.bam GSM1919096.bam GSM1919097.bam GSM1919098.bam GSM1919099.bam GSM1919100.bam GSM1919101.bam GSM1919102.bam GSM1919103.bam GSM2064538.bam GSM2064539.bam GSM2064540.bam GSM2157784.bam GSM2157785.bam GSM2157786.bam" /hpcdata/li/li_data/bryan/bin/hisat2-2.1.0/Homo_sapiens.GRCh38.93.gtf GSM_combined.counts /hpcdata/li/li_data/bryan/180925_nlm-repro_rnaseq/GSM_merged_sorted_bam_outputs
+
+
+#R stuff
+library("DESeq2")
+library("ggplot2")
+library("pheatmap")
+library("RColorBrewer")
+
+countsTable <- read.table("~/Desktop/GSM_combined.counts", header=TRUE, row.names="Geneid")[,6:33]
+cts <- as.matrix(countsTable)
+coldata <- read.csv("~/Desktop/DESEQ_sample_table.csv")
+
+dds <- DESeqDataSetFromMatrix(countData = cts, colData = coldata, design = ~ cell_type)
+dds$cell_type <- relevel(dds$cell_type, ref="control")
+dds <- dds[ rowSums(counts(dds)) > 0, ]
+
+dds <- DESeq(dds)
+res <- results(dds)
+vsd <- varianceStabilizingTransformation(ddsHTSeq, blind=FALSE)
+write.csv(assay(vsd), file="variance_stabilized_data.csv")
+write.csv(as.data.frame(res), file="ControlvsCancer_deseq2_results.csv")
+
+
+df <- as.data.frame(colData(dds)[,c("cell_type","Project")])
+pheatmap(as.matrix(sampleDists), annotation_col=df, show_rownames=FALSE, show_colnames=FALSE)
+
+df <- as.data.frame(colData(dds)["cell_type"])
+pheatmap(as.matrix(sampleDists), annotation_col=df, show_rownames=FALSE, show_colnames=FALSE)
+
+gene_select <- c("MB", "SFRP1", "GSTM3", "SULT1E1", "TRIM29", "VSTM2L")
+pheatmap(vsd_select, annotation_col=df, show_rownames=TRUE, show_colnames=FALSE)
+
+
+GSTM3  <- ggplot(GSTM3_count, aes(x=cell_type, y=log2(count))) +
+ geom_boxplot(outlier.size=.3, notch=TRUE, width=.25, lwd=.3) + xlab(NULL) +  ylab(expression(paste(Log[2],"(GSTM3)"))) + theme(axis.title.y = element_text(size=6, angle = 90, margin=margin(0,2,0,0)), axis.text.x = element_text(size=6, angle=45, margin=margin(12,0,0,0)), axis.text.y = element_text(size=6))
+
+MB  <- ggplot(MB_count, aes(x=cell_type, y=log2(count))) +
+ geom_boxplot(outlier.size=.3, notch=TRUE, width=.25, lwd=.3) + xlab(NULL) +  ylab(expression(paste(Log[2],"(MB)"))) + theme(axis.title.y = element_text(size=6, angle = 90, margin=margin(0,2,0,0)), axis.text.x = element_text(size=6, angle=45, margin=margin(12,0,0,0)), axis.text.y = element_text(size=6))
+
+SFRP1 <- ggplot(SFRP1_count, aes(x=cell_type, y=log2(count))) +
+ geom_boxplot(outlier.size=.3, notch=TRUE, width=.25, lwd=.3) + xlab(NULL) +  ylab(expression(paste(Log[2],"(SFRP1)"))) + theme(axis.title.y = element_text(size=6, angle = 90, margin=margin(0,2,0,0)), axis.text.x = element_text(size=6, angle=45, margin=margin(12,0,0,0)), axis.text.y = element_text(size=6))
+
+SULT1E1 <- ggplot(SULT1E1_count, aes(x=cell_type, y=log2(count))) +
+ geom_boxplot(outlier.size=.3, notch=TRUE, width=.25, lwd=.3) + xlab(NULL) +  ylab(expression(paste(Log[2],"(SULT1E1)"))) + theme(axis.title.y = element_text(size=6, angle = 90, margin=margin(0,2,0,0)), axis.text.x = element_text(size=6, angle=45, margin=margin(12,0,0,0)), axis.text.y = element_text(size=6))
+
+TRIM29 <- ggplot(TRIM29_count, aes(x=cell_type, y=log2(count))) +
+ geom_boxplot(outlier.size=.3, notch=TRUE, width=.25, lwd=.3) + xlab(NULL) +  ylab(expression(paste(Log[2],"(TRIM29)"))) + theme(axis.title.y = element_text(size=6, angle = 90, margin=margin(0,2,0,0)), axis.text.x = element_text(size=6, angle=45, margin=margin(12,0,0,0)), axis.text.y = element_text(size=6))
+
+VSTM2L <- ggplot(VSTM2L_count, aes(x=cell_type, y=log2(count))) +
+geom_boxplot(outlier.size=.3, notch=TRUE, width=.25, lwd=.3) + xlab(NULL) +  ylab(expression(paste(Log[2],"(VSTM2L)"))) + theme(axis.title.y = element_text(size=6, angle = 90, margin=margin(0,2,0,0)), axis.text.x = element_text(size=6, angle=45, margin=margin(12,0,0,0)), axis.text.y = element_text(size=6))
+
+jpeg("~/Desktop/figure.jpg", quality=100, height= 2.8 , width=4.5, units= "in", res=300, pointsize=8)
+grid.newpage()
+pushViewport(viewport(layout=grid.layout(2,3)))
+vplayout <- function(x,y)
+ viewport(layout.pos.row=x, layout.pos.col=y)
+
+print(SFRP1, vp = vplayout(1,1))
+print(GSTM3, vp = vplayout(1,2))
+print(SULT1E1, vp = vplayout(1,3))
+print(MB, vp = vplayout(2,1))
+print(TRIM29, vp = vplayout(2,2))
+print(VSTM2L, vp = vplayout(2,3))
+dev.off()
